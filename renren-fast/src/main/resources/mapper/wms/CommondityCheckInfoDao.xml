@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.wms.dao.CommondityCheckInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.wms.entity.CommondityCheckInfoEntity" id="commondityCheckInfoMap">
+        <result property="commoditycheckid" column="commodityCheckId"/>
+        <result property="commoditychecktype" column="commodityCheckType"/>
+        <result property="employeeid" column="employeeId"/>
+        <result property="state" column="state"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.wms.dao.StockInInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.wms.entity.StockInInfoEntity" id="stockInInfoMap">
+        <result property="stockinid" column="stockInId"/>
+        <result property="employeeid" column="employeeId"/>
+        <result property="commonditycherckid" column="commondityCherckId"/>
+        <result property="stockindate" column="stockInDate"/>
+        <result property="stockinstate" column="stockInState"/>
+    </resultMap>
+
+
+</mapper>
